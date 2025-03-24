@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_page</title>
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+      <!-- ion icons link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+        }
+    </script>
+</head>
+<body class="bg-[#F8F9FA] dark:bg-gray-900 dark:text-white transition-all">
+    <!-- Navbar -->
+    <header class="sticky top-0">
+        <nav class="bg-[#008080] dark:bg-gray-800 shadow-md py-4 ">
+            <div class="container mx-auto flex justify-around items-center px-6 ">
+                <div class="text-xl font-semibold text-gray-800 dark:text-white gap-5 flex-shrink-0 flex items-center">
+                    <img src="../images/image.png" alt="logo" class="w-[50px] rounded-full border-2 border-gray-600">
+                    <span class="hidden md:block text-2xl">My Portfolio</span>
+                </div>
+                <ul class="flex space-x-6 font-semibold text-[18px]">
+                    <li><a href="#about" class="text-black dark:text-white hover:text-black dark:hover:text-white">About</a></li>
+                    <li><a href="mywork.html" class="text-gray-800 dark:text-gray-300 hover:text-black dark:hover:text-white">Archivement</a></li>
+                    <li><a href="services.html" class="text-gray-800 dark:text-gray-300 hover:text-black dark:hover:text-white">Products</a></li>
+                    <li><a href="contact.html" class="text-gray-800 dark:text-gray-300 hover:text-black dark:hover:text-white">Contact</a></li>
+                </ul>
+                <div class="flex gap-2 ">
+                  <button onclick="toggleDarkMode()" class="material-symbols-outlined ">🌙 </button>
+                  <span class="font-semibold hidden md:block text-gray-800 dark:text-gray-300 text-[18px]">Dark mode</span>
+                </div>
+            </div>
+
+            <!-- mobible screen -->
+            
+    </header>
+    <main>
+      <!-- hero section -->
+      <section class=" flex flex-col-reverse sm:flex-row sm:justify-center	 lg:min-h-screen  px-8 sm:px-16 py-4 max-w-screen-xl pt-5 	mx-auto items-center  ">
+        <!-- left side -->
+        <div class="sm:w-3/5">
+          <h1 class="  text-5xl font-semibold text-[#008080] dark:text-white">Welcome to My Portfolio</h1>
+          <p class="mt-10 text-gray-700 dark:text-gray-400 text-[18px]">A professional front-end developer, showcasing of my work and projects</p>    
+          <h2 class=" mt-10 text-4xl font-semibold text-[#008080] dark:text-white">Hi, I'm LONG Visal.</h2>
+          <p class="mt-10 text-gray-700 dark:text-gray-400 text-[18px]">I have a Bachelor's degree majored in Computer Engineering. Currently <br>I am focused on learning JavaScript Full Stack Web Development. I loved <br>to build products that can be used by millions of people. </p> 
+          <h3 class=" mt-3 font-semibold text-2xl text-[#008080] dark:text-white"> Open for Work & Collaboration.</h3>
+          <p class="mt-3 text-gray-700 dark:text-gray-400 text-[18px]">I am a passionate developer who loves building web applications and <br> exploring new technologies. I specialize in front-end and back-end <br>development, creating seamless user experiences.</p>
+          <a href="mywork.html" class=" bg-[#19b6b6] dark:bg-gray-900 font-semibold mt-8 inline-block px-6 py-2 border border-gray-800 dark:border-gray-300 text-gray-800 dark:text-white rounded-lg hover:bg-[#A59D84] dark:hover:bg-gray-300 hover:text-white dark:hover:text-gray-900 transition">View My Work</a>
+      
+          <!-- social Links -->
+        <div class="mt-10">
+            <ul class="flex gap-4">
+              <li class="mr-2 flex justify-center items-center ">
+                <a href="https://www.linkedin.com/in/long-visal-35880a356/" target="_blank" class="w-[35px] h-[35px]">
+                  <ion-icon name="logo-linkedin" class="w-[35px] h-[35px] text-[#008080] dark:text-white transition-all hover:text-[#A59D84] dark:hover:text-[#A59D84]"></ion-icon>
+                </a>
+              </li>
+              <li class="mr-2 flex justify-center items-center">
+                <a href="https://github.com/Longisal" target="_blank" class="w-[35px] h-[35px]">
+                  <ion-icon name="logo-github" class="w-[35px] h-[35px] text-[#008080] dark:text-white transition-all hover:text-[#A59D84] dark:hover:text-[#A59D84]"></ion-icon>
+                </a>
+              </li>
+              <li class="mr-2 flex justify-center items-center">
+                <a href="https://x.com/JruyPro/with_replies" target="_blank" class="w-[35px] h-[35px]">
+                  <ion-icon name="logo-twitter" class="w-[35px] h-[35px] text-[#008080] dark:text-white transition-all hover:text-[#A59D84] dark:hover:text-[#A59D84]"></ion-icon>
+                </a>
+              </li>
+              <li class="mr-2 flex justify-center items-center">
+                <a href="https://www.instagram.com/sal.zin2/" target="_blank" class="w-[35px] h-[35px]">
+                  <ion-icon name="logo-instagram" class="w-[35px] h-[35px] text-[#008080] dark:text-white transition-all hover:text-[#A59D84] dark:hover:text-[#A59D84]"></ion-icon>
+                </a>
+              </li>
+              <li class="mr-2 flex justify-center items-center">
+                <a href="" target="_blank" class="w-[35px] h-[35px]">
+                  <ion-icon name="mail" class="w-[35px] h-[35px] text-[#008080] transition-all dark:text-white hover:text-[#A59D84] dark:hover:text-[#A59D84]"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- right side -->
+        <div class="flex md:w-2/5 sm:w-1/5 h-full justify-center  mb-20 mt-10 p-6 overflow-hidden ">
+          <img src="../images/image.png" alt="hero-img" class="  rounded-full border-4 border-[#008080] dark:border-gray-300 transition-transform hover:scale-110">
+        </div>
+      </section>  
+
+        <!-- Skills Section -->
+
+        <section class="bg-[#F8F9FA] dark:bg-gray-900 px-8 sm:px-16 py-16 max-w-screen-xl mx-auto" id="skills">
+          <div class="">
+            <div class="flex justify-center items-center gap-12 pb-12">
+              <div class="h-px flex-1 bg-[#008080] hidden sm:block"></div>
+              <h2 class="text-4xl font-bold">Tech Stack</h2>
+              <div class="h-px flex-1 bg-[#008080] hidden sm:block"></div>
+            </div>
+      
+            <!-- skills -->
+            <div class="grid grid-cols-3  sm:grid-cols-5 gap-12" style="font-family: 'Roboto Mono', monospace;">
+      
+              <!-- Skill 01 -->
+              <div class="flex flex-col items-center gap-2">
+                <img src="https://prakash-naikwadi.netlify.app/images/icons8-html-5-96.svg" alt="html icon" class="w-24 h-24">
+                <p class="font-semibold text-gray-700 dark:text-gray-400 text-[18px]">HTML</p>
+              </div>
+      
+      
+              <!-- Skill 02 -->
+      
+              <div class="flex flex-col items-center gap-2">
+                <img src="	https://prakash-naikwadi.netlify.app/images/icons8-css3-96.svg" alt="css icon" class="w-24 h-24">
+                <p class="font-semibold text-gray-700 dark:text-gray-400 text-[18px]">CSS</p>
+              </div>
+      
+              <!-- Skill 03 -->
+      
+              <div class="flex flex-col items-center gap-2 ">
+                <img src="	https://prakash-naikwadi.netlify.app/images/tailwind-css.svg" alt="tailwind css icon" class="w-24 h-24">
+                <p class="font-semibold text-gray-700 dark:text-gray-400 text-[18px] text-center">Tailwind CSS</p>
+              </div>
+      
+      
+              <!-- Skill 04 -->
+      
+              <div class="flex flex-col items-center gap-2">
+                <img src="https://prakash-naikwadi.netlify.app/images/icons8-javascript-96.svg" alt="javascript icon" class="w-24 h-24">
+                <p class="font-semibold text-gray-700 dark:text-gray-400 text-[18px]">JavaScript</p>
+              </div>
+              <!-- Skill 04 -->
+      
+              <div class="flex flex-col items-center gap-2">
+                <img src="	https://prakash-naikwadi.netlify.app/images/icons8-react-80.svg" alt="javascript icon" class="w-24 h-24">
+                <p class="font-semibold text-gray-700 dark:text-gray-400 text-[18px]">React</p>
+              </div>
+      
+      
+              <!-- Skill 05 -->
+      
+              <div class="flex flex-col items-center gap-2">
+                <img src="https://prakash-naikwadi.netlify.app/images/icons8-git-96.svg" alt="git icon" class="w-24 h-24">
+                <p class="font-semibold text-gray-700 dark:text-gray-400 text-[18px]">Git</p>
+              </div>
+      
+            </div>
+          </div>
+        </section>
+
+
+            <script>
+              function toggleDarkMode() {
+                document.documentElement.classList.toggle('dark');
+                const isDarkMode = document.documentElement.classList.contains('dark');
+                localStorage.setItem('darkMode', isDarkMode);
+              }
+        
+              document.addEventListener('DOMContentLoaded', () => {
+                const savedDarkMode = localStorage.getItem('darkMode') === 'true';
+                if (savedDarkMode) {
+                  document.documentElement.classList.add('dark');
+                } else {
+                  document.documentElement.classList.remove('dark');
+                }
+              });
+            </script>
+          <!-- Footer -->
+    </main>
+    <footer class="dark:bg-gray-800 bg-[#008080] dark:text-gray-400 text-gray-900 py-8 ">
+      <div class="container mx-auto px-4 w-[80%]">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20">
+              <div>
+                  <h4 class="text-lg font-bold mb-4">MyPortfolio</h4>
+                  <p>YourApp is the all-in-one solution for productivity <br>and team collaboration.</p>
+              </div>
+              <div>
+                  <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                  <ul class="space-y-2">
+                      <li><a href="#" class="hover:text-gray-300">Features</a></li>
+                      <li><a href="#" class="hover:text-gray-300">Pricing</a></li>
+                      <li><a href="#" class="hover:text-gray-300">Blog</a></li>
+                  </ul>
+              </div>
+              <div>
+                  <h4 class="text-lg font-bold mb-4">Contact Us</h4>
+                  <ul class="space-y-2">
+                      <li><a href="#" class="hover:text-gray-300">support@yourapp.com</a></li>
+                      <li><a href="#" class="hover:text-gray-300">+1-555-123-4567</a></li>
+                  </ul>
+              </div>
+              <div>
+                  <h4 class="text-lg font-bold mb-4">Follow Us</h4>
+                  <div class="flex space-x-4">
+                      <a href="#" class="hover:text-blue-400"><i class="fab fa-facebook fa-lg"></i></a>
+                      <a href="#" class="hover:text-blue-400"><i class="fab fa-twitter fa-lg"></i></a>
+                      <a href="#" class="hover:text-pink-500"><i class="fab fa-instagram fa-lg"></i></a>
+                  </div>
+              </div>
+          </div>
+          <div class="text-center mt-8">
+              <p>© 2025 MyPortfolio. All rights reserved.</p>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
